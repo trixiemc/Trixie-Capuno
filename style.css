@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'Gasalt-Black';
+    src: url(Gasalt-Black.ttf);
+    font-family: 'Gasalt-Regular';
+    src: url(Gasalt-Regular.ttf);
+    font-family: 'Gasalt-Thin';
+    src: url(Gasalt-Thin.ttf);
+}
+body{
+    font-family: 'Gasalt-Black';
+}
+.container{
+    padding: 50px;
+    margin-inline: 100px;
+    margin-top: 250px;
+    margin-bottom: 150px;
+    background-color: rgb(210, 210, 210);
+}
+.profile-picture{
+    width: 180px;
+    height: 180px;
+    border-radius: 60%;
+    margin-inline: 480px;
+}
+.social-icon{
+    width: 25px;
+    height: 26px;
+    border-radius: 25%;
+    margin-right: 250px;
+    transform: translateY(-50%);
+    margin-top: 5px;
+    text-align:left;
+    margin-left: 10px;
+}
+.bio{
+    margin-inline: 100px;
+    text-align: center;
+    font-family: 'Gasalt-Regular';
+}
+.name{
+    display: center;
+    position: relative;
+    padding-inline-start: 500px;
+    padding-inline-end: 100px;
+}
+.social-link {
+    display: inline-block;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 50px;
+    position: relative;
+    margin-left: 60px;
+    height: 50px;
+    margin-top: 5px;
+}
+.social-icon{
+    width: 25px;
+    height: 26px;
+    border-radius: 25%;
+    margin-right: 10px;
+    transform: translateY(30%);
+    margin-top: 5px;
+    text-align:center;
+    margin-left: 10px;
+}
+.social-text {
+    position:absolute;
+    text-align: justify;
+    top: 12px;
+    transform: translateY(-40%);
+    left: 50px;
+}
+.social-link:hover {
+    background-color: #4267B2;
+    color: #ffffff;
+    border: 0px solid #4267B2;
+}
+.social-link:hover .social-text {
+    color: #ffffff;
+}
